@@ -3,6 +3,7 @@
 
 #include "framework.h"
 #include "Main.h"
+#include "GameEngine.h"
 
 #define MAX_LOADSTRING 100
 
