@@ -1,6 +1,7 @@
 #pragma once
 #include <Windows.h>
 #include <cstdint>
+#include "UObject.h"	// UObject
 
 namespace Unreal
 {
@@ -17,7 +18,7 @@ namespace Unreal
 	};
 
 	// 이전 프레임과 현재 프레임에 대하여 키보드 입력 상태를 관리하는 클래스
-	class UInputSystem
+	class UInputSystem : public UObject
 	{
 		friend class GameEngine;
 	public:
